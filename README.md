@@ -19,8 +19,8 @@ Four agents are trained on the *same* custom Gymnasium environment with **TorchR
 ## Quick start (uv)
 
 ```bash
-git clone https://github.com/<your-username>/<student_name>_rl_summative.git
-cd <student_name>_rl_summative
+git clone https://github.com/DUSHIMEDanPaul/DUSHIME_Dan_Paul_rl_summative.git
+cd DUSHIME_Dan_Paul_rl_summative
 uv sync                 # creates .venv and installs everything from uv.lock
 uv run main.py          # runs the best trained agent in the 3D window + verbose terminal log
 ```
