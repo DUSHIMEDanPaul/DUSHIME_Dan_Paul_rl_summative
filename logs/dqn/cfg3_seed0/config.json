@@ -1,0 +1,23 @@
+{
+  "lr": 0.001,
+  "gamma": 0.95,
+  "buffer_size": 50000,
+  "batch_size": 128,
+  "hidden": [
+    128,
+    128
+  ],
+  "activation": "relu",
+  "eps_init": 1.0,
+  "eps_end": 0.05,
+  "eps_anneal_frac": 0.5,
+  "tau": 0.01,
+  "double_dqn": false,
+  "updates_per_batch": 8,
+  "frames_per_batch": 200,
+  "init_random_frames": 2000,
+  "grad_clip": 10.0,
+  "config_id": 3,
+  "total_frames": 60000,
+  "seed": 0
+}

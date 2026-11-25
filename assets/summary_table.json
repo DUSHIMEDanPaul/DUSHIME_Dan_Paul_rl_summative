@@ -1,0 +1,58 @@
+[
+  {
+    "method": "DQN",
+    "best_config": 9,
+    "eval_return_mean": 36.13,
+    "eval_return_std": 39.01,
+    "eval_success_rate": 0.4,
+    "eval_accuracy": 0.72,
+    "eval_mode": "stochastic",
+    "greedy_return": 20.33,
+    "stochastic_return": 36.13,
+    "episodes_trained": 521,
+    "episodes_to_converge": 139,
+    "train_minutes": 1.44
+  },
+  {
+    "method": "REINFORCE",
+    "best_config": 9,
+    "eval_return_mean": 17.8,
+    "eval_return_std": 11.23,
+    "eval_success_rate": 0.0,
+    "eval_accuracy": 0.42,
+    "eval_mode": "stochastic",
+    "greedy_return": 0.17,
+    "stochastic_return": 17.8,
+    "episodes_trained": 670,
+    "episodes_to_converge": 380,
+    "train_minutes": 2.36
+  },
+  {
+    "method": "PPO",
+    "best_config": 9,
+    "eval_return_mean": 60.22,
+    "eval_return_std": 17.86,
+    "eval_success_rate": 1.0,
+    "eval_accuracy": 0.81,
+    "eval_mode": "stochastic",
+    "greedy_return": 19.68,
+    "stochastic_return": 60.22,
+    "episodes_trained": 905,
+    "episodes_to_converge": 542,
+    "train_minutes": 3.31
+  },
+  {
+    "method": "A2C",
+    "best_config": 4,
+    "eval_return_mean": 28.22,
+    "eval_return_std": 13.53,
+    "eval_success_rate": 0.1,
+    "eval_accuracy": 0.56,
+    "eval_mode": "stochastic",
+    "greedy_return": -7.87,
+    "stochastic_return": 28.22,
+    "episodes_trained": 669,
+    "episodes_to_converge": 497,
+    "train_minutes": 2.33
+  }
+]

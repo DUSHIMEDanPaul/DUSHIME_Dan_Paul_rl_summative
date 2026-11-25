@@ -1,0 +1,5 @@
+method,best_config,eval_return_mean,eval_return_std,eval_success_rate,eval_accuracy,eval_mode,greedy_return,stochastic_return,episodes_trained,episodes_to_converge,train_minutes
+DQN,9,36.13,39.01,0.4,0.72,stochastic,20.33,36.13,521,139,1.44
+REINFORCE,9,17.8,11.23,0.0,0.42,stochastic,0.17,17.8,670,380,2.36
+PPO,9,60.22,17.86,1.0,0.81,stochastic,19.68,60.22,905,542,3.31
+A2C,4,28.22,13.53,0.1,0.56,stochastic,-7.87,28.22,669,497,2.33

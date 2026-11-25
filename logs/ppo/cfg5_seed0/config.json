@@ -1,0 +1,20 @@
+{
+  "lr": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip_epsilon": 0.1,
+  "hidden": [
+    128,
+    128
+  ],
+  "activation": "tanh",
+  "frames_per_batch": 2000,
+  "num_epochs": 8,
+  "minibatch_size": 256,
+  "entropy_coef": 0.01,
+  "critic_coef": 0.5,
+  "grad_clip": 0.5,
+  "config_id": 5,
+  "total_frames": 100000,
+  "seed": 0
+}

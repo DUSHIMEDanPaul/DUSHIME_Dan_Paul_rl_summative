@@ -1,0 +1,18 @@
+{
+  "lr": 0.001,
+  "gamma": 0.99,
+  "hidden": [
+    256,
+    256
+  ],
+  "activation": "tanh",
+  "frames_per_batch": 1500,
+  "entropy_coef": 0.01,
+  "use_baseline": true,
+  "normalize_advantage": true,
+  "critic_coef": 0.5,
+  "grad_clip": 1.0,
+  "config_id": 9,
+  "total_frames": 100000,
+  "seed": 0
+}

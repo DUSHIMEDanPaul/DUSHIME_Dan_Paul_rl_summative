@@ -1,0 +1,28 @@
+[project]
+name = "safebuild-inspector-rl"
+version = "1.0.0"
+description = "RL agents (DQN, REINFORCE, PPO, A2C with TorchRL) that detect buildings in flood- and landslide-prone zones or violating building rules"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "torch>=2.4",
+    "torchrl==0.15.0",
+    "tensordict==0.15.6",
+    "gymnasium>=1.0",
+    "numpy>=1.26",
+    "pygame>=2.6",
+    "PyOpenGL>=3.1.7",
+    "pillow>=10.1",
+    "matplotlib>=3.8",
+    "pandas>=2.1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore"]
